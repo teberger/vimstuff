@@ -11,6 +11,7 @@ set autoindent
 set smartindent
 set cindent
 set mouse=a
+set hidden
 
 set ignorecase
 set smartcase
@@ -47,14 +48,14 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-liquid'
 " Plugin 'PProvost/vim-markdown-jekyll'
-Plugin 'derekwyatt/vim-scala'
-Plugin 'lervag/vimtex'
-Plugin 'itspriddle/vim-marked'
-Plugin 'vim-pandoc/vim-pandoc'
-Plugin 'vim-pandoc/vim-pandoc-syntax'
+" Plugin 'derekwyatt/vim-scala'
+" Plugin 'lervag/vimtex'
+" Plugin 'itspriddle/vim-marked'
+" Plugin 'vim-pandoc/vim-pandoc'
+" Plugin 'vim-pandoc/vim-pandoc-syntax'
 " Plugin 'tpope/vim-markdown'
 Plugin 'mikewest/vimroom'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 
@@ -88,7 +89,7 @@ au Syntax * RainbowParenthesesLoadBraces
 " Solarized stuff
 let g:solarized_termtrans = 1
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 
 let g:EclimCompletionMethod = 'omnifunc'
 
@@ -139,7 +140,7 @@ nmap <leader><cr> i<cr><Esc>
 " options for airlinelet
 let g:airline_powerline_fonts = 1
 " spelling
-setlocal spell spelllang=en_us
+"setlocal spell spelllang=en_us
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
